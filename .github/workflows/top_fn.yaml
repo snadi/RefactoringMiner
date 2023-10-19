@@ -10,7 +10,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: get modified functions
-        uses: snadi/TopModifiedFunctions@v1.0
+        uses: snadi/TopModifiedFunctions@v1.1
         with:
           topn: 5
           mainbranch: master
